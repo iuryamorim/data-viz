@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`stock Stock render component 1`] = `
+<div
+  id="stock"
+>
+  <header
+    className="page-header"
+  >
+    <h2>
+      Stock
+       
+      <small />
+    </h2>
+  </header>
+  <div
+    className="StockForm"
+    role="form"
+  >
+    <div>
+      <div
+        className="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+      >
+        <div
+          className="boxInline"
+        >
+          <input
+            className="form-control"
+            id="ticker"
+            onChange={[Function]}
+            onKeyUp={[Function]}
+            placeholder="Ticker"
+            value=""
+          />
+          <input
+            className="form-control"
+            id="start"
+            onChange={[Function]}
+            onKeyUp={[Function]}
+            placeholder="Start Date"
+            type="date"
+            value=""
+          />
+          <input
+            className="form-control"
+            id="end"
+            onChange={[Function]}
+            onKeyUp={[Function]}
+            placeholder="End Date"
+            type="date"
+            value=""
+          />
+          <select
+            id="getFunction"
+            name="getFunction"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+               --- Algorithms ---
+            </option>
+            <option
+              value="dividends"
+            >
+              Dividends
+            </option>
+            <option
+              value="close"
+            >
+              Close Price
+            </option>
+            <option
+              value="recommendations"
+            >
+              Recommendations
+            </option>
+          </select>
+          <button
+            className="btn btn-info searchButton"
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-search"
+            />
+          </button>
+          <button
+            className="btn btn-default undefined"
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-close"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div />
+</div>
+`;

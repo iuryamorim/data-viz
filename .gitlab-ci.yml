@@ -1,0 +1,15 @@
+image: node:11.14.0
+
+lint:
+  stage: test
+  before_script:
+    - npm install
+  script:
+    - npm run lint
+
+test:
+  before_script:
+    - npm install
+  script:
+    - npm run coverage
+  coverage: /All files\s*\|\s*([\d\.]+)/

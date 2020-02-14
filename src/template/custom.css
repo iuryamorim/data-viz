@@ -1,0 +1,27 @@
+.btn {
+    margin-right: 5px;
+}
+
+.tableActions {
+    width: 105px;
+}
+
+.stockForm {
+    padding-bottom: 60px;
+}
+
+.boxInline {
+    display: flex;
+}
+
+.filterLink {
+    margin-right: 20px;
+}
+
+.searchButton {
+    margin-left: 5px;
+}
+
+.trRed {
+    background-color: #ffcccc;
+}

@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StockForm render component 1`] = `
+<div
+  className="StockForm"
+  role="form"
+>
+  <div>
+    <div
+      className="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+    >
+      <div
+        className="boxInline"
+      >
+        <input
+          className="form-control"
+          id="ticker"
+          onKeyUp={[Function]}
+          placeholder="Ticker"
+        />
+        <input
+          className="form-control"
+          id="start"
+          onKeyUp={[Function]}
+          placeholder="Start Date"
+          type="date"
+        />
+        <input
+          className="form-control"
+          id="end"
+          onKeyUp={[Function]}
+          placeholder="End Date"
+          type="date"
+        />
+        <select
+          id="getFunction"
+          name="getFunction"
+        >
+          <option
+            value=""
+          >
+             --- Algorithms ---
+          </option>
+          <option
+            value="dividends"
+          >
+            Dividends
+          </option>
+          <option
+            value="close"
+          >
+            Close Price
+          </option>
+          <option
+            value="recommendations"
+          >
+            Recommendations
+          </option>
+        </select>
+        <button
+          className="btn btn-info searchButton"
+        >
+          <i
+            className="fa fa-search"
+          />
+        </button>
+        <button
+          className="btn btn-default undefined"
+        >
+          <i
+            className="fa fa-close"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
